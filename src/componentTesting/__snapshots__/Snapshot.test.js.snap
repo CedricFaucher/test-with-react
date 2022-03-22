@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`This will be snapshot 1`] = `
+<div
+  className="totiw"
+>
+  <p
+    id="tutu"
+  >
+    I will be snapshot!
+  </p>
+</div>
+`;

@@ -1,5 +1,9 @@
 import logo from './logo.svg';
+import BaseAndMatchers from './jest/BaseAndMatchers'
 import './App.css';
+import Mocks from './jest/Mocks';
+import Component from './componentTesting/Component';
+import Enzyme from './enzyme/Enzyme';
 
 function App() {
   return (
@@ -18,6 +22,14 @@ function App() {
           Learn React
         </a>
       </header>
+
+      {/* ******************************************************* */}
+      <main>
+        <BaseAndMatchers />
+        <Mocks array={[1, 2, 3, 4, 5]} />
+        <Component name="John" />
+        <Enzyme name="Bob" />
+      </main>
     </div>
   );
 }
